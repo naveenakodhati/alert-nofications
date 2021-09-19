@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.main-app-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+  min-height: 100vh;
+}
+.notification-container {
+  display: flex;
+}
+.notification-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+.notification-icons {
+  margin-right: 20px;
+  align-self: center;
+  align-self: flex-start;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+.notification-description {
+  color: #64748b;
+  font-size: 17px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .main-app-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
